@@ -1,0 +1,55 @@
+@import url("./reset.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B1B5BE;
+}
+
+header, section, aside, footer {
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-color: #9F2063;
+    color: white;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2AB77F;
+}
+
+aside {
+    background-color: #116395;
+    color: white;
+}
+
+footer {
+    background-color: #E06B26;
+    color: white;
+}
+
+article {
+    background-color: #E4195B;
+    color: white;
+    height: 2rem;
+    width:95%;
+    border-radius: 4px;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#aside-two {
+    background-color: #25A4B5;
+}
